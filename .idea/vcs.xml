@@ -2,6 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CSAPP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Concurrency" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NetWork" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/language/kotlin/kotlinx.coroutines" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mysql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/summary" vcs="Git" />
   </component>
 </project>
