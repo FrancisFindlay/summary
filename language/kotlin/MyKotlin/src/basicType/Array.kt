@@ -8,7 +8,6 @@ fun main() {
     // 创建了一个大小为0的空数组，实际上是调用了arrayofNulls
     val array1 = emptyArray<String>()
 
-
     val array2 = arrayOfNulls<String>(0)
 
     val array3 = Array(10) { i -> i * i }

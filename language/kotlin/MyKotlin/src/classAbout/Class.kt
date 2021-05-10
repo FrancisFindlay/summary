@@ -56,15 +56,17 @@ class InitDemo(name: String) {
 
 class Customer(name: String) { //主构造函数必须声明类型
     val property = name.toUpperCase()
+
+    init {
+        print(name)
+    }
 }
 
 /**
  * 主构造函数和初始化的简洁写法
  */
 
-class Man(val firstName: String, val lastName: String, var age: Int = 1) {
-
-}
+class Man(val firstName: String, val lastName: String, var age: Int = 1)
 
 /**
  * 如果有可见性修饰符和构造函数，construct是必须的

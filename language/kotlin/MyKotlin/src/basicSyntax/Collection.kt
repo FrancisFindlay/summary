@@ -22,9 +22,9 @@ fun main() {
     //使用lambda来过滤和映射集合
     val fruits = listOf<String>("banana", "avocado", "apple", "kiwifruit")
     fruits
-        .filter { it.startsWith("a") } //过滤
-        .sortedBy { it } // 排序
-        .map { it.toUpperCase() }
-        .forEach { println(it)}
+            .filter { it.startsWith("a") } //过滤
+            .sortedBy { it } // 排序
+            .map { it.toUpperCase() }
+            .forEach { println(it) }
 
 }

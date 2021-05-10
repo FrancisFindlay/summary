@@ -1,5 +1,0 @@
-针对二进制文本做输出输入mp3,视频
-InputStream
-OutputStream
-
-字节流write不需要flush（）

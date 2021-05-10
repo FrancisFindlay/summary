@@ -1,6 +1,6 @@
 package classAbout
 
-public class Address {
+class Address {
     var name: String = "francis"
     var street: String = "Baker"
     var city: String = "London"
@@ -68,7 +68,7 @@ class BackingFields {
 
         set(value) {
             field = value + ", hello!" // 为了给name赋值，就需要用到幕后字段... field指向当前属性。
-            // name = value  这句话报错的原因， 访问那么实际就是调用了set，因此出现了自己调用自己的递归...
+            // name = value  这句话报错的原因， 访问name实际就是调用了set，因此出现了自己调用自己的递归...
         }
 
     var size = 0

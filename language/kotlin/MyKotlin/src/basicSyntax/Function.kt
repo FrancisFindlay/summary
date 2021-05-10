@@ -1,6 +1,6 @@
 package basicSyntax
 
-fun sum(x: Int, y: Int) : Int {
+fun sum(x: Int, y: Int): Int {
     return x + y
 }
 
@@ -14,7 +14,7 @@ fun sum1(a: Int, b: Int) = a + b
  Unit:和void类似，但Unit是一个类型
  Unit返回类型可以省略
  */
-fun sum2(a: Int, b: Int) : Unit {
+fun sum2(a: Int, b: Int): Unit {
     print("sum of ${a} and ${b} is ${a + b}")
 }
 
